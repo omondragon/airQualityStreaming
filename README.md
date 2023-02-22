@@ -1,16 +1,18 @@
 # Aplicación de monitoreo de calidad del aire en tiempo real
 Esta es una aplicación que utiliza Apache Spark para procesar y analizar datos en tiempo real de sensores que monitorean la calidad del aire. La aplicación consta de dos componentes principales:
 
-airQ.py: Este script de Python utiliza Spark Streaming para procesar los datos de los sensores en tiempo real y calcular la cantidad de lecturas buenas de calidad del aire.
-sensorData.py: Este script de Python genera datos simulados de sensores y los envía a través de un socket a la aplicación airQ.py.
+**airQ.py**: Este script de Python utiliza Spark Streaming para procesar los datos de los sensores en tiempo real y calcular la cantidad de lecturas buenas de calidad del aire.
+
+**sensorData.py**: Este script de Python genera datos simulados de sensores y los envía a través de un socket a la aplicación airQ.py.
 
 Requisitos previos
 Antes de poder utilizar esta aplicación, necesitará tener instalado lo siguiente:
 
-Python 3.x
-Apache Spark
-nc (Netcat)
-Cómo lanzar la aplicación
+*Python 3.x
+*Apache Spark
+*nc (Netcat)
+
+##Cómo lanzar la aplicación
 Para lanzar esta aplicación, siga los siguientes pasos:
 
 Clone este repositorio en su máquina local.
