@@ -8,11 +8,11 @@ Esta es una aplicación que utiliza Apache Spark para procesar y analizar datos 
 Requisitos previos
 Antes de poder utilizar esta aplicación, necesitará tener instalado lo siguiente:
 
-*Python 3.x
-*Apache Spark
-*nc (Netcat)
+* Python 3.x
+* Apache Spark
+* nc (Netcat)
 
-##Cómo lanzar la aplicación
+## Cómo lanzar la aplicación
 Para lanzar esta aplicación, siga los siguientes pasos:
 
 Clone este repositorio en su máquina local.
