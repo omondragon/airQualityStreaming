@@ -34,5 +34,7 @@ Esto lanzará ambas aplicaciones y comenzará a enviar datos simulados de sensor
 Nota: 
 * Asegúrese de que el servidor y el puerto en el script sensorData.py coincidan con los del script airQ.py.
 * Para instalar nclib use:
+
 ```sudo apt-get install python3-pip```
+
 ```pip3 install nclib```
