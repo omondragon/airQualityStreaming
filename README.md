@@ -31,4 +31,8 @@ En la otra pestaña, inicie la aplicación sensorData.py ejecutando el siguiente
 
 Esto lanzará ambas aplicaciones y comenzará a enviar datos simulados de sensores a través de un socket a la aplicación airQ.py para su procesamiento en tiempo real. La aplicación airQ.py mostrará el número de lecturas buenas de calidad del aire en tiempo real en la consola.
 
-Nota: Asegúrese de que el servidor y el puerto en el script sensorData.py coincidan con los del script airQ.py.
+Nota: 
+* Asegúrese de que el servidor y el puerto en el script sensorData.py coincidan con los del script airQ.py.
+* Para instalar nclib use:
+```sudo apt-get install python3-pip```
+```pip3 install nclib```
