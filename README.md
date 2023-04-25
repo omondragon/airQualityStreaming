@@ -5,7 +5,7 @@ Esta es una aplicación que utiliza Apache Spark para procesar y analizar datos 
 
 **sensorData.py**: Este script de Python genera datos simulados de sensores y los envía a través de un socket a la aplicación airQ.py.
 
-Requisitos previos
+## Requisitos previos
 Antes de poder utilizar esta aplicación, necesitará tener instalado lo siguiente:
 
 * Python 3.x
